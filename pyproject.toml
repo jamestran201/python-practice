@@ -10,6 +10,7 @@ authors = ["James Tran <tmnhat2001@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
 
