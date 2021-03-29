@@ -2,7 +2,7 @@ import locale
 import click
 import requests
 
-API_PATH = "http://{language}.wikipedia.org/api/rest_v1/page/random/summary"
+API_PATH = "https://{language}.wikipedia.org/api/rest_v1/page/random/summary"
 
 def random_page(language):
     url = create_url(language) 
