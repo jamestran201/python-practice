@@ -9,7 +9,7 @@ keywords = ["hypermodern"]
 authors = ["James Tran <tmnhat2001@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 click = "^7.1.2"
 requests = "^2.25.1"
 
