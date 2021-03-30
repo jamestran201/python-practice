@@ -25,4 +25,7 @@ def create_url(input_locale):
 
 def get_default_locale():
     default_locale, _ = locale.getdefaultlocale()
+    if not default_locale:
+        return "en"
+
     return default_locale.split("_")[0]
