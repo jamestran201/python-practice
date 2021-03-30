@@ -1,5 +1,3 @@
-import pytest
-
 from hypermodern_python import wikipedia
 
 

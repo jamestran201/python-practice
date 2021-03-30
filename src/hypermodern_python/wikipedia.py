@@ -1,4 +1,5 @@
 import locale
+
 import click
 import requests
 

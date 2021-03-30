@@ -1,5 +1,6 @@
-import nox
 import tempfile
+
+import nox
 
 nox.options.sessions = "lint", "safety", "tests"
 
@@ -9,7 +10,7 @@ def install_with_constraints(session, *args, **kwargs):
         session.run(
             "poetry",
             "export",
-            "--without-hashes", # see https://github.com/cjolowicz/hypermodern-python/issues/174
+            "--without-hashes",  # see https://github.com/cjolowicz/hypermodern-python/issues/174
             "--dev",
             "--format=requirements.txt",
             f"--output={requirements.name}",

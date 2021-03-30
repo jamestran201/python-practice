@@ -1,7 +1,9 @@
-import click
 import textwrap
 
-from . import __version__, wikipedia
+import click
+
+from . import __version__
+from . import wikipedia
 
 
 @click.command()
