@@ -29,6 +29,7 @@ coverage = {extras = ["toml"], version = "^5.5"}
 reorder-python-imports = "^2.4.0"
 mypy = "^0.812"
 pytype = {version = "^2021.3.22", python = "3.8"}
+typeguard = "^2.11.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
