@@ -4,5 +4,5 @@ max-complexity = 10
 ignore = E203,E501,W503
 max-line-length = 120
 application-import-names = hypermodern_python,tests
-import-order-style = google
+import-order-style = smarkets
 per-file-ignores = tests/*:S101

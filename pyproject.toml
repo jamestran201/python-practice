@@ -12,6 +12,7 @@ authors = ["James Tran <tmnhat2001@gmail.com>"]
 python = "^3.8"
 click = "^7.1.2"
 requests = "^2.25.1"
+pydantic = "^1.8.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
