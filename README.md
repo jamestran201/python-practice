@@ -1,3 +1,5 @@
 # python-practice
 
-[![Tests](https://github.com/tmnhat2001/hypermodern-python/workflows/Tests/badge.svg)](https://github.com/tmnhat2001/hypermodern-python/actions?workflow=Tests)
+<p align="left">
+  <a href="https://github.com/tmnhat2001/python-practice"><img alt="GitHub Actions status" src="https://github.com/tmnhat2001/python-practice/workflows/Tests/badge.svg"></a>
+</p>
